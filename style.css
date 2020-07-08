@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+img{
+border-radius: 50%;
+text-align: center;
+width: 200px;
+}
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: white;
+  font-weight: lighter;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.button {
+   background-color: #9E5016;
+   border: 2px solid #964A18;
+   border-radius:50px;
+   height:40px;
+   width: 300px;
+   text-decoration: none;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   box-shadow: 1px 1px 2px #964A18;
+}
+.button:hover {
+  background-color: #964A18;
+  color: #469F74;
+  width: 200px;
+ height:40px;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  align-content: center;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 2px 16px;
+}
+
+.card {
+  padding: 5px;
+  background-color: #469F74;
+  box-shadow: 5px 5px 5px  grey;
+  border-radius: 20px;
+  margin: 10px;
+}
+.card-footer{
+  padding: 5px;
+  background-color: #469F74;
+  box-shadow: 5px 5px 5px  grey;
+  margin: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+
+
+
+
